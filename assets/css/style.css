@@ -83,7 +83,7 @@ footer a {
     margin-bottom: 2%;
 }
 /*Selector por atributo*/
-#contenido form{
+#contenido form {
     border: 5px solid blue;
     margin-top:  15px;
     margin-bottom: 15px;
@@ -91,6 +91,21 @@ footer a {
 }
 #contenido form * {
     display: inline-block;
+}
+/* #contenidovertical form {
+    border: 5px solid blue;
+    margin-top:  15px;
+    margin-bottom: 15px;
+    padding: 10px;
+} */
+#contenidovertical{
+    border: 2px solid #FDCC00;
+    padding: 10px;
+}
+#contenidovertical {
+    text-align: center;
+     /* /* text-align: right; */
+     margin: -15% 5 5 -15%; */
 }
 input [type="text"],select{
     margin-bottom: 15px;
@@ -109,3 +124,7 @@ input[type="submit"],button{
     border: 1px solid black;
     cursor: pointer;
 }
+/* id="inscripcion"
+#frm-inscripcion{
+    display: inline-block;
+} */
