@@ -1,0 +1,130 @@
+ /* Selector Universal */
+*{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin: 0px;
+    padding: 0px;    
+}
+/* Selector por etiquetas */
+header{
+    background: #23376D;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+/*Pone colores, estilos, espacios, alineacion y tamaños*/
+footer{
+    background: #23376D;
+    text-align: center;
+    color: white;
+    padding: 10px;
+    bottom: 0px;
+    position: fixed;
+    width: 100%;
+    height: 60px;
+    line-height: 50px;
+}
+/*Aplica a todas las etiquetas que tengan a*/
+a{
+    font-size: 18px;
+    color: #7D0A42;
+    text-decoration: none;
+}
+/*aplicar un color a una etiquete en especifito */
+footer a {
+    color: azure;
+}
+/*selector id*/
+#contenido{
+    border: 2px solid #FDCC00;
+    padding: 10px;
+}
+#principal {
+    margin-left: 30%;
+}
+#contenido table{
+    margin: auto;
+}
+ #descripcion{    
+     font-style: italic;
+    text-decoration: underline;
+    font-weight: bold;
+    margin: 10px;   
+ }
+ #menu{
+     background: #eee;     
+ }
+ #menu ul li {
+     display: block;
+     float: left;
+    border-right:#CCC 1px solid;
+ }
+#menu ul li a {
+    display: block;
+    padding: 15px;
+    color: #444;
+
+    }
+#menu ul li:hover{
+    background: rgb(16, 75, 143);
+    cursor: pointer;
+}
+#menu ul li:hover a { 
+    color: white;
+}
+/*selector por clase se utiliza el punto*/
+.clearFix{
+    float: none;
+    clear: both;
+}
+.subTitulo{
+    text-align: center;
+    color: cornflowerblue;
+    margin-top: 2%;
+    margin-bottom: 2%;
+}
+/*Selector por atributo*/
+#contenido form {
+    border: 5px solid blue;
+    margin-top:  15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+#contenido form * {
+    display: inline-block;
+}
+/* #contenidovertical form {
+    border: 5px solid blue;
+    margin-top:  15px;
+    margin-bottom: 15px;
+    padding: 10px;
+} */
+#contenidovertical{
+    border: 2px solid #FDCC00;
+    padding: 10px;
+}
+#contenidovertical {
+    text-align: center;
+     /* /* text-align: right; 
+     margin: -15% 5 5 -15%; */
+}
+input [type="text"],select{
+    margin-bottom: 15px;
+    padding: 10px;
+    width: 350px;
+}
+select {
+    width: 350px;    
+}
+input[type="submit"],button{
+    background: maroon;
+    color: white;
+    padding: 15px;
+    font-size: 15px;
+    text-transform: uppercase;
+    border: 1px solid black;
+    cursor: pointer;
+}
+/* id="inscripcion"
+#frm-inscripcion{
+    display: inline-block;
+} */
